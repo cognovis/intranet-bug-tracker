@@ -1,3 +1,6 @@
+-- upgrade-3.2.7.0.0-3.2.8.0.0.sql
+
+SELECT acs_log__debug('/packages/intranet-bug-tracker/sql/postgresql/upgrade/upgrade-3.2.7.0.0-3.2.8.0.0.sql','');
 
 SELECT im_component_plugin__new (
         null,                           -- plugin_id
